@@ -1,0 +1,347 @@
+/*------------------------------------------------------------------
+    File Name: color1_dark.css
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    Tema color Dark
+-------------------------------------------------------------------*/
+
+
+
+:root {
+	
+/*----- HEADER -----*/
+
+ --main-headerbottom-color: #101010;
+ --mainthemebg-color: #149646;
+
+ /*----- FOOTER -----*/
+ 
+  --main-footerdark-color: #141414;
+  --main-footertext-color:  #fff;
+  --main-linefooter-color: #149646;
+  --main-footertitle-color:  #eee;
+  --main-footersubtitle-color: #ccc;
+  --main-footerdisc-color: #149646;
+  --main-iconsfooter-color: #fff;
+  --main-iconsfontfooter-color: #232323;
+  --main-iconsfooterhover-color: #149646;
+
+
+
+
+}
+
+
+.header_top,
+#navbar_menu ul ul li a:hover,
+#navbar_menu ul ul li a:focus,
+.full_slider_inner,
+.bg_load,
+.theme_color_bg,
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus,
+.carousel-indicators .active,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.progress-bar,
+.tags a:hover,
+.tags a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.icon_feature {
+	background: var(--main-tema-color);
+    background-size: 100% 100%;
+    border: none;
+}
+
+.header_bottom{
+	background: var(--main-headerbottom-color);
+}
+
+.theme_bg {
+	background: var(--main-themebg-color);
+}
+
+#navbar_menu > ul > li a.active,
+#navbar_menu > ul > li:hover > a,
+#navbar_menu > ul > li:focus > a,
+footer p a:hover,footer p a:focus,
+.footer-menu li a:hover,
+.footer-menu li a:focus,
+footer ul.social_icons li a:hover,
+footer ul.social_icons li a:focus,
+.breadcrumb li a {
+    color: var(--main-menu-color);
+}
+
+footer {
+	background: #141414;
+}
+
+footer .contact-form input{
+	background: #333 ;
+}
+
+footer .contact-form textarea{
+	background: #333 ;
+}
+
+.cprt {
+	background: #222 ;
+}
+.btn.sqaure_bt {
+    border-radius: 0;
+    background: #149646;
+}
+
+.btn.sqaure_bt span {
+    font-size: 31px;
+    font-weight: 400;
+    position: absolute;
+    right: 16px;
+}
+
+
+footer h2::after,
+.field button.button_custom,.contact_us_section {
+	background: #149646;
+}
+
+.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
+    background: #149646 !important;
+}
+
+.blog_colum  {
+	background-color: #141414;
+}
+
+.service-item h4 {
+	color: #fff;
+}
+
+.more-info .more-info-content {
+	background-color: #141414;
+	}
+
+.partners {
+	background-color: #141414;
+}
+
+
+.contant_form{
+	background-color: #1b1b1b;
+	}
+
+.title-item span{
+
+color: #fff;
+}
+
+input.field_custom {
+	border: solid #101010 1.5px;
+	background: #141414;
+	color: #686868;
+}
+
+textarea.field_custom {
+	border: solid #101010 1px;
+	background: #141414;
+	color: #686868;
+}
+
+.field label{
+    color: #868686;
+}
+
+a.btn.main_bt,
+button.btn.main_bt {
+	background: var(--main-boton-color);
+	border: none;
+}
+
+a.btn.main_bt:hover,
+a.btn.main_bt:focus,
+button.btn.main_bt:hover,
+button.btn.main_bt:focus {
+	background: var(--main-botontext-color);
+	background-size: 100% 100%;
+	color: var(--main-boton-color);
+}
+
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus {
+	color: var(--main-botontext-color);
+}
+
+
+.modal-backdrop {
+	background-color: var(--main-capaoculta-color);
+}
+
+#navbar_menu ul ul,
+hr.dottad_border,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.tags a:hover,
+.tags a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.comment_section,
+.boder_dottat_small {
+	border-color: var(--main-menu-color);
+}
+
+
+
+.theme_color_bg .border_dotted_circle,
+.theme_color_bg .border_dotted_circle:hover,
+.theme_color_bg .border_dotted_circle:focus {
+	border-color: var(--main-temabg-color);
+}
+
+
+.tp-bannertimer {
+    background: var(--main-barradecarga-color) !important;
+}
+
+.tp-caption.tp-shape.tp-shapewrapper.rs-parallaxlevel-0 {
+	background-color: var(--main-parallaxfondo-color) !important;
+}
+
+/** dark theme **/
+
+html, body {
+    color: #eee;
+    background: #111;
+}
+
+#navbar_menu > ul > li > a {
+    color: #fff;
+    background: #101010;
+}
+
+#navbar_menu ul ul li a {
+	padding: 15px 20px 15px;
+	font-size: 14px;
+	color: #999;
+	font-weight: 500;
+	background: #222;
+	color: #fff !important;
+	}
+
+#navbar_menu.small-screen ul li a, #navbar_menu.small-screen ul ul li a {
+    width: 100%;
+    border-bottom: 0;
+    color: #eee !important;
+}
+
+#navbar_menu.small-screen ul {
+    background: #222;
+}
+
+
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+}
+
+h5 {
+    color: #fff;
+}
+
+p {
+    color: #c2c2c2;
+}
+
+.permitir label a {
+
+  color: #999; 
+}
+
+  .check_button .check {
+  	background: #141414;
+  	border: 1px solid #555;
+  }
+
+#accordion .panel.panel-default .panel-heading p a, #accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] {
+
+    border: solid #222 1px;
+    background: #222;
+
+}
+
+#accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] {
+
+    color: #fff !important;
+
+}
+
+#accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] i.fa-angle-down {
+
+    color: #fff !important;
+
+}
+
+#accordion .panel.panel-default .panel-heading p a {
+	color: #fff;
+}
+
+#accordion .panel.panel-default .panel-heading p a i.fa-angle-down {
+    color: #;
+}
+
+.light_silver {
+    background: #1c1c1c;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #fff;
+}
+
+
+.counter-heading {
+    color: #fff;
+}
+
+.counter-count {
+    color: #999;
+}
+
+.brand_list li {
+    border: solid #222 5px;
+}
+
+#navbar_menu.small-screen #menu-button {
+	border-color: #111;
+}
+
+#navbar_menu.small-screen #menu-button::before {
+	background: var(--main-barmenuicon-color);
+}
+
+#navbar_menu.small-screen #menu-button::after {
+	border-color: var(--main-barmenuicon-color);
+}
+
+#navbar_menu.small-screen #menu-button.menu-opened::before,
+#navbar_menu.small-screen #menu-button.menu-opened::after {
+	background: var(--main-barmenuicon-color);
+}

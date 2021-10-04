@@ -1,0 +1,136 @@
+ /*------------------------------------------------------------------
+    File Name: colors1.css
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    color theme
+-------------------------------------------------------------------*/
+
+.header_top,
+#navbar_menu ul ul li a:hover,
+#navbar_menu ul ul li a:focus,
+.full_slider_inner,
+.bg_load,
+.theme_color_bg,
+.price_table_active .price_head,
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus,
+.carousel-indicators .active,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.progress-bar,
+.tags a:hover,
+.tags a:focus,
+.testimonial_slider .carousel-control:hover,
+.testimonial_slider .carousel-control:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.icon_feature {
+	background: var(--main-tema-color);
+    background-size: 100% 100%;
+    border: none;
+}
+
+.theme_bg {
+	background: var(--main-temabg-color);
+}
+
+#navbar_menu > ul > li a.active,
+#navbar_menu > ul > li:hover > a,
+#navbar_menu > ul > li:focus > a,
+footer p a:hover,footer p a:focus,
+.footer-menu li a:hover,
+.footer-menu li a:focus,
+footer ul.social_icons li a:hover,
+footer ul.social_icons li a:focus,
+.breadcrumb li a {
+    color: var(--main-menu-color);
+}
+
+.btn.sqaure_bt {
+    border-radius: 0;
+    background: var(--main-boton-color);
+}
+
+.btn.sqaure_bt span {
+    font-size: 31px;
+    font-weight: 400;
+    position: absolute;
+    right: 16px;
+}
+
+footer h2::after,
+.field button.button_custom,
+.cprt,.contact_us_section {
+	background: var(--main-linefooter-color);
+}
+
+.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
+    background: var(--main-parallax-color) !important;
+}
+
+a.btn.main_bt,
+button.btn.main_bt {
+	background: var(--main-boton-color);
+	border: none;
+}
+
+a.btn.main_bt:hover,
+a.btn.main_bt:focus,
+button.btn.main_bt:hover,
+button.btn.main_bt:focus {
+	background: var(--main-botontext-color);
+	background-size: 100% 100%;
+	color: var(--main-boton-color);
+}
+
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus {
+	color:  var(--main-botontext-color);
+}
+
+
+.modal-backdrop {
+	background-color: var(--main-capaoculta-color);
+}
+
+#navbar_menu ul ul,
+hr.dottad_border,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.tags a:hover,
+.tags a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.comment_section,
+.boder_dottat_small {
+	border-color: var(--main-menu-color);
+}
+
+
+.border_dotted_circle:hover,
+.border_dotted_circle:focus {
+	border-color: var(--main-temabg-color);
+}
+
+
+.theme_color_bg .border_dotted_circle,
+.theme_color_bg .border_dotted_circle:hover,
+.theme_color_bg .border_dotted_circle:focus {
+	border-color: var(--main-temabg-color);
+}
+
+.tp-bannertimer {
+    background: var(--main-barradecarga-color) !important;
+}
+
+
